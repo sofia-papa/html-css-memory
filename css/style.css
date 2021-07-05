@@ -26,6 +26,7 @@
     background-size: contain;
     margin: 10px 15px;
     border-radius: 25px;
+    box-shadow: 2px 2px lightslategray;
 }
 
 .air-balloon{
@@ -39,16 +40,21 @@
     margin: 10px 15px;
     border-radius: 25px;
     position: relative;
+    box-shadow: 2px 2px lightslategray;
+    
 }
 
 div.title-card{
+    width: 120px;
     position: absolute;
     bottom: 10px;
-    left: 50px;
+    left: 25px;
+    font-family: 'Chango', cursive;
+    color: violet;
 }
 
 body{
-    background-color: rgb(155, 183, 224);
+    background-color: rgb(193, 213, 243);
 }
 
 main {
@@ -61,10 +67,20 @@ header h1{
     text-transform: uppercase;
     text-align: center;
     color: white;
+    font-family: 'Chango', cursive;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.image-hover:hover{
+}
+
+.image-hover{
+    width: 160px;
+    height: 200px;
+    position: absolute;
 }
